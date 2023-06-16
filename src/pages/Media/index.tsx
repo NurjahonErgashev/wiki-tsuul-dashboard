@@ -30,6 +30,7 @@ export default function Media() {
             }}
             dataSource={data.data.map((item: any, index: any) => ({
               ...columns,
+              key:index+1,
               buttons: (
                 <div>
                   <Button
