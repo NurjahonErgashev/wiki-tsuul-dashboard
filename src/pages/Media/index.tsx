@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Button, Table } from "antd";
 import { useGetData } from "../../utils/hooks/useGet";
 import styles from "./index.module.scss";
@@ -56,19 +55,5 @@ export default function Media() {
     </div>
   ) : (
     <h1>loading...</h1>
-=======
-import { changeLanguage } from "i18next";
-import { useTranslation } from "react-i18next";
-import { useState } from "react";
-export default function Media() {
-  let { t } = useTranslation();
-
-  return (
-    <div className="media-page">
-        <h1>
-          {t("Media")}
-        </h1>
-    </div>
->>>>>>> 2ac185341e73456065c94ee2d8aaf058fc5577e9
   );
 }
